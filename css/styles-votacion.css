@@ -1,0 +1,48 @@
+#point{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 6px 20px 10px black;
+    opacity: 0.8;
+    border-radius: 25px;
+}
+
+#opt{
+    font-family: 'Comic Neue', cursive;
+    font-size: 20px;  
+}
+
+#quest{
+    margin-bottom: 30px;  
+    font-family: 'Comic Neue', cursive;
+    border-bottom: 1px solid black;
+    font-weight:bold;
+    color: black;
+}
+
+#top{
+    margin: 50px;
+    font-family: 'League Gothic', sans-serif;
+    color:white;
+}
+
+#send{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: 'Comic Neue', cursive;
+}
+
+#codPropiety{
+    font-size: 20px; 
+    font-weight:bold;
+    font-family: 'Comic Neue', cursive;
+    border: 1px solid black;
+    box-shadow: 6px 20px 10px black;
+    opacity: 0.8;
+}
+
+body{
+    background: url(../assets/img/bg-votacion.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
