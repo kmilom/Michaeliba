@@ -24,9 +24,8 @@
           <h3>A continuaci&oacute;n, encontrar&aacute; la encuesta para su respectiva diligenciaci&oacute;n y env&iacute;o:</h3>
         </div>
       </div>
-      <div></div>
       <div class="col-6 offset-3">
-        <form name="test">
+        <form name="formulario" id="formulario">
           <div class="row" id="point">
             <div class="row">
               <div class="col-8 offset-2" id="quest">
@@ -37,15 +36,15 @@
               <div class="col-4 offset-2" id="opt">
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="quest1" id="yes" value="yes">
-                  <label class="form-check-label" for="yes">S&iacute;.</label>
+                  <label class="form-check-label">S&iacute;.</label>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="quest1" id="no" value="no">
-                  <label class="form-check-label" for="no">No.</label>
+                  <label class="form-check-label">No.</label>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="quest1" id="nv" value="nv" checked>
-                  <label class="form-check-label" for="nv">No opina.</label>
+                  <label class="form-check-label">No opina.</label>
                 </div>
               </div>
             </div>
@@ -60,15 +59,15 @@
               <div class="col-4 offset-2" id="opt">
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="quest2" id="yes" value="yes">
-                  <label class="form-check-label" for="yes">S&iacute;.</label>
+                  <label class="form-check-label">S&iacute;.</label>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="quest2" id="no" value="no">
-                  <label class="form-check-label" for="no">No.</label>
+                  <label class="form-check-label">No.</label>
                 </div>
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="quest2" id="nv" value="nv" checked>
-                  <label class="form-check-label" for="nv">No opina.</label>
+                  <label class="form-check-label">No opina.</label>
                 </div>
               </div>
             </div>
@@ -76,7 +75,8 @@
           <div class="row" id="gets">
             <div class="col col-md-6">
               <div class="mb-3">
-                <input type="number" class="form-control" id="codPropiety" name="codPropiety" placeholder="c&oacute;digo de propietario">
+                <input type="number" class="form-control" id="codOwner" name="codOwner" placeholder="C&oacute;digo de propietario" required>
+                <!--div class="invalid-feedback" data-sb-feedback="codOwner:required">Es necesario escribir el c&oacute;digo de propietario.</div-->
               </div>
             </div>
           </div>
